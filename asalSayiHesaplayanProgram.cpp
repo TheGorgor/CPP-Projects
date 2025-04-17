@@ -7,7 +7,7 @@ using namespace std;
 
 int Input() {
 	int inputValue;
-	cout << "Sayý gir: " << endl;
+	cout << "SayÄ± gir: " << endl;
 	cin >> inputValue;
 	return inputValue;
 }
@@ -31,10 +31,10 @@ void toString() {
 	int sayi = Input();
 	bool asalMi = asalSayiMi(sayi);
 	if (asalMi == true) {
-		cout << sayi << ", asal sayýdýr." << endl;
+		cout << sayi << ", asal sayÄ±dÄ±r." << endl;
 	}
 	else {
-		cout << sayi << ", asal sayý deðildir" << endl;
+		cout << sayi << ", asal sayÄ± deÄŸildir" << endl;
 	}
 }
 int main() {
